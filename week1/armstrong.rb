@@ -10,7 +10,7 @@
 
 def armstrong_number(n)
    puts "Enter the number to be checked for armstrong number"
-    num=gets
+    num=n
     k=num.length - 1
     ans=0
     i=0
@@ -18,5 +18,10 @@ def armstrong_number(n)
         ans=ans + ((num[i].to_i)**k)
         i+=1
     end
-    puts num.to_i==ans
+    if(num.to_i==ans)
+          return true
+    else
+          return false
+    end
+          
 end
