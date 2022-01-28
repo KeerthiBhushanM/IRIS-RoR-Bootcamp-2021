@@ -22,6 +22,6 @@ def armstrong_number(n)
     if(num.to_i==ans)
        return true
     else
-    return false
+       return false
     end
 end
