@@ -10,7 +10,7 @@
 
 def armstrong_number(n)
      puts "Enter the number to be checked for armstrong number"
-    temp=gets
+    temp=n
     num=temp.to_s
     k=num.length-1
     ans=0
