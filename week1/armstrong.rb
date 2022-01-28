@@ -11,7 +11,7 @@
 def armstrong_number(n)
     #program to check if a given number is armstrong number
     puts "Enter the number to be checked for armstrong number"
-    num=n.to_s
+    num=gets
     k=num.length - 1
     ans=0
     i=0
