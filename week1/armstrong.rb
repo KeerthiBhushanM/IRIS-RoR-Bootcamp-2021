@@ -12,7 +12,7 @@ def armstrong_number(n)
     puts "Enter the number to be checked for armstrong number"
     temp=gets.chomp.to_i
     num=temp.to_s
-    k=num.length - 1
+    k=num.length
     ans=0
     i=0
     while i<k
