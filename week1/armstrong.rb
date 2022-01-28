@@ -9,9 +9,10 @@
 # and `false` otherwise.
 
 def armstrong_number(n)
-   puts "Enter the number to be checked for armstrong number"
-    num=n
-    k=num.length - 1
+    puts "Enter the number to be checked for armstrong number"
+    temp=n
+    num=temp.to_s
+    k=num.length-1
     ans=0
     i=0
     while i<k
@@ -19,9 +20,8 @@ def armstrong_number(n)
         i+=1
     end
     if(num.to_i==ans)
-          return true
+       return true
     else
-          return false
+    return false
     end
-          
 end
