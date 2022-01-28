@@ -19,7 +19,7 @@ def armstrong_number(n)
         ans=ans + ((num[i].to_i)**k)
         i+=1
     end
-    if(num.to_i==ans)
+    if(temp.to_i==ans)
        return true
     else
        return false
