@@ -24,7 +24,7 @@ class ArmstrongTest < Minitest::Test
     ]
 
     test_cases.each do |test_case|
-      assert_equal test_case[:result], armstrong_number(n: test_case[:n]),
+      assert_equal test_case[:result], armstrong_number(test_case[:n]),
         "armstrong_number(n: #{test_case[:n]}) is #{test_case[:result]}"
     end
   end
