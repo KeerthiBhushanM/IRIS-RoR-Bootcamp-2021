@@ -9,5 +9,14 @@
 # and `false` otherwise.
 
 def armstrong_number(n)
-    raise NotImplementedError # Delete this line and start coding here
+   puts "Enter the number to be checked for armstrong number"
+    num=gets
+    k=num.length - 1
+    ans=0
+    i=0
+    while i<k
+        ans=ans + ((num[i].to_i)**k)
+        i+=1
+    end
+    puts num.to_i==ans
 end
