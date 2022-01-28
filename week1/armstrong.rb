@@ -20,8 +20,8 @@ def armstrong_number(n)
         i+=1
     end
     if(temp.to_i==ans)
-       return true
+       puts true
     else
-       return false
+       puts false
     end
 end
