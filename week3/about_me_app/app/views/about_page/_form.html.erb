@@ -1,0 +1,9 @@
+  
+    
+     <%= form_with(url: "/about_page", method: "post") do %>
+        <%= label_tag(:name, "enter name") %>
+        <%= text_field_tag(:name) %> <br><br>
+        <%= label_tag(:email, "enter email") %>
+        <%= text_field_tag(:email) %> <br><br><br>
+        <%= submit_tag("Submit") %>
+        <% end %>
